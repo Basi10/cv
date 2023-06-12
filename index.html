@@ -1,73 +1,78 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Basilel's Personal Site</title>
+    <meta charset="utf-8" />
+    <title>Basilel Birru</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="css/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <table cellspacing = "20">
-        <tr>
-          <td>
-          <img src="Images/basilel.png" alt="Basilel Profile Picture" style="width: 200px; height: 200px">
-          </td>
-          <td><h1>Basilel Birru</h1>
-          <p><em>Graduate Software Engineer at <strong><a href="http://www.dventus.com/">dVentus Technologies</a></strong></em></p>
-          <p> I am a Java Developer. I love coffee! </p>
-          </td>
-        </tr>
-    </table>
+    <div class="top">
+      <img class="cloudImage-top" src="images/cloud.png" alt="" />
+      <h1>I'm Basilel</h1>
+      <h2>Programmer</h2>
+      <img class="cloudImage-bottom" src="images/cloud.png" alt="" />
+      <img src="images/mountain.png" alt="" />
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          src="images/basilel.png"
+          alt=""
+          style="width: 200px; height: 200px"
+        />
+        <h2>Hello.</h2>
+        <p class="intro">
+          I am a Java and WebDeveloper. I work for dVentus Technologies. I love
+          coffee.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="javaimage" src="images/java.png" alt="Java" />
+          <h3>Java Development</h3>
+          <p>
+            I started Java Development because my company was in need of an
+            urgent solution to a problem we were facing. Overtime, i gained a
+            wealth of experience designing, developing and testing Java
+            applications
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="appdevimage" src="images/app-development.png" alt="" />
+          <h3>Web Development</h3>
+          <p>
+            My best skills comes actually from the UI, I enjoy the formulating
+            the correlation with the user
+          </p>
+        </div>
+      </div>
+      <hr />
+    </div>
 
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>I am enthusiatic about Full Stack Web Development.</h3>
+      <p class="message">
+        Are you enthusiatic about Web Development? Let's talk about how awesome
+        it is!
+      </p>
+      <a class="btn" href="mailto:basilelbirru@gmail.com">CONTACT ME</a>
+    </div>
 
-
-
-    <hr>
-    <h3>Books and Teaching</h3>
-      <ul>
-        <li>Fundamentals of Engineering</li>
-        <li>Electromagnetism</li>
-        <li>Computer Controlled System</li>
-      </ul>
-      <hr>
-      <h3>Work Expirence</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Dates</th>
-            <th>Work</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>06.2022-01.2023</td>
-            <td>Trainee Software Engineer</td>
-          </tr>
-          <tr>
-            <td>01.2023-Present</td>
-            <td>Graduate Software Engineer</td>
-          </tr>
-        </tbody>
-      </table>
-      <hr>
-      <h3>Skills</h3>
-      <table cellspacing = "10">
-        <tbody>
-          <tr>
-            <td>Java</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Spring</td>
-            <td>⭐⭐</td>
-          </tr>
-          <tr>
-            <td>Hibernate</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-        </tbody>
-      </table>
-      <hr>
-         <a href="hobbies.html">My Hobbies</a>
-         <a href="contact.html">Contact Me</a>
-
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="nameTag">© 2023 Basilel Birru @dVentus Technologies.</p>
+    </div>
   </body>
 </html>
